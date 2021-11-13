@@ -170,7 +170,7 @@ $ crontab -e
 - 2021年1月29日 解决接触时间 1970-01-01的问题， 见 [issue 36](https://github.com/IanSmith123/ucas-covid19/issues/36)
 - 2021年8月2日 只允许 14 天内未离京的同学使用该程序，删除非必要的键，如果 14 天内有异动，提示手动打卡; 修改了方糖通知的 api 调用的 url；网站证书配置的问题似乎已经修复，目前设置为正常的验证 ssl 证书
 - 2021年8月15日 添加了 tg bot 消息推送；修复了 sender_email 默认不为空导致未配置邮件发送也会发送邮件的 bug，见  [PR#44](https://github.com/IanSmith123/ucas-covid19/pull/44)
-- 2021年10月11日 添加了网站无法访问时通知打卡失败的功能，见[PR#49](https://github.com/IanSmith123/ucas-covid19/pull/49) 
+- 2021年10月11日 添加了网站无法访问时通知打卡失败的功能，见[PR#49](https://github.com/IanSmith123/ucas-covid19/pull/49)
 
 # 致谢
 - 感谢 [karuboniru](https://github.com/IanSmith123/ucas-covid19/pull/1) 提供的github actions 支持
